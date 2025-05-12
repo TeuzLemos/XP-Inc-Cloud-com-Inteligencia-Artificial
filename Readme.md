@@ -165,7 +165,9 @@ ________________________________________________________________________________
 
 ## Nuvem Privada (Private Cloud)
 
-![Captura de tela 2025-04-22 123216.png](attachment:3fd759e3-9045-492c-9e80-0726cb1c065b:Captura_de_tela_2025-04-22_123216.png)
+![Primeira imagem](Imagens/Captura-de-tela-2025-04-22123216.png)
+
+
 
 ### O que é?
 
