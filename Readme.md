@@ -140,3 +140,281 @@ Este documento reúne conceitos e detalhes essenciais sobre **On-Premise**, **Co
 | Flexibilidade | Baixa | Alta | Alta |
 | Complexidade de Gestão | Média | Baixa | Alta |
 | Compliance | Facilmente auditável | Compartilhada | Personalizável |
+
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+## O que é a computação em nuvem ?
+
+**Computação em nuvem** (ou **cloud computing**) é o modelo de disponibilização de recursos de TI (infraestrutura, plataformas e softwares) sob demanda pela internet, de forma escalável e paga conforme o uso. Em vez de adquirir e manter servidores, redes e licenças localmente, você “aluga” esses recursos de provedores especializados.
+
+**On‑Demand & Self‑Service**
+
+- Você provisiona recursos (VMs, armazenamento, bancos de dados) via portal ou API, sem precisar de intervenção humana do provedor.
+
+## Nuvem Privada (Private Cloud)
+
+![Captura de tela 2025-04-22 123216.png](attachment:3fd759e3-9045-492c-9e80-0726cb1c065b:Captura_de_tela_2025-04-22_123216.png)
+
+### O que é?
+
+A **nuvem privada** é um ambiente de computação em nuvem exclusivo para uma única organização. Pode ser hospedada **dentro da própria empresa (on-premise)** ou em data centers de terceiros, mas o acesso, gerenciamento e recursos são **restritos somente à organização proprietária**.
+
+---
+
+### Características
+
+- **Isolamento Total:** Nenhum recurso é compartilhado com outras empresas.
+- **Customização:** Mais flexibilidade para configurar a infraestrutura conforme requisitos específicos.
+- **Controle Total:** A organização define e aplica suas próprias políticas de segurança, rede e desempenho.
+- **Modelo Híbrido Possível:** Pode ser integrada com nuvem pública formando uma nuvem híbrida.
+- As organizações crim um ambiente em nuvem em seu datacenter
+- As organizações são responsáveis por operar os serviços que fornecem
+- Não fornece acesso aos usuários fora da organizção
+- Nenhuma despesa de capital para escalar verticalmente
+- Os aplicativos podem ser provisionados e desprovisionados rapidamente
+
+---
+
+### Vantagens
+
+| Vantagem | Explicação |
+| --- | --- |
+| **Segurança Reforçada** | Mais fácil aplicar normas rígidas de proteção de dados e compliance. |
+| **Desempenho Consistente** | Recursos dedicados garantem performance previsível. |
+| **Conformidade (Compliance)** | Facilita a adesão a leis como LGPD, HIPAA, etc. |
+| **Controle Operacional** | Decisões sobre como, onde e quando usar os recursos são internas. |
+
+---
+
+### Desvantagens
+
+| Desvantagem | Detalhes |
+| --- | --- |
+| **Custo Elevado** | Infraestrutura dedicada tem custo similar ao on-premise tradicional. |
+| **Gerenciamento Complexo** | Requer equipe especializada ou contrato com MSPs (fornecedores gerenciados). |
+| **Escalabilidade Limitada** | Crescimento depende da capacidade da estrutura dedicada. |
+
+---
+
+### Exemplos de uso
+
+- **Bancos** que precisam manter dados de clientes com rigorosas regras de segurança.
+- **Hospitais** que utilizam sistemas de prontuário eletrônico com alta confidencialidade.
+- **Empresas com softwares legados** que não são compatíveis com a nuvem pública.
+
+---
+
+### 🔍 Quando usar?
+
+- Quando a empresa precisa de alto controle sobre dados e infraestrutura.
+- Quando há **exigência regulatória** que não pode ser atendida por uma nuvem pública.
+- Quando o tráfego de dados interno é muito alto e precisa de baixa latência.
+
+## Nuvem pública (Public Cloud)
+
+![Captura de tela 2025-04-22 131440.png](attachment:2bf0bbd0-aa3b-4634-8f29-d5e40dcbf1af:Captura_de_tela_2025-04-22_131440.png)
+
+### O que é?
+
+A **nuvem pública** é um modelo de computação em nuvem onde **recursos como servidores, armazenamento e serviços são fornecidos por terceiros** (como AWS, Azure, Google Cloud) e **compartilhados entre vários clientes**, ainda que de forma isolada logicamente.
+
+Esses recursos são acessados **pela internet** e cobrados geralmente **pelo uso (modelo OPEX)**.
+
+---
+
+### Características
+
+- Pertecente a serviços de nuvem ou provedor de hosting.
+- Fornece recursos e serviços a várias organizações e usuários.
+- Acessada via conexão de rede segura (geralmente pela internet).
+- **Alta Escalabilidade:** Recursos quase ilimitados disponíveis sob demanda.
+- **Modelo sob Assinatura/Pagamento por Uso:** Você só paga pelo que usar.
+- **Gerenciamento Terceirizado:** A manutenção da infraestrutura é responsabilidade do provedor.
+- **Multiusuário (Multitenancy):** Diversos clientes usam a mesma infraestrutura, mas isoladamente.
+- **Acesso Global:** Disponível em várias regiões do mundo com baixa latência.
+- As organizações têm controle total sobre os recursos e a segurança
+- As organizações são responáveis pela manutenção e pelas atualizações de hardware
+
+---
+
+### Vantagens
+
+| Vantagem | Detalhes |
+| --- | --- |
+| **Baixo Custo Inicial** | Sem necessidade de comprar hardware ou manter data centers. |
+| **Escalabilidade Flexível** | Cresce ou reduz recursos automaticamente, conforme a demanda. |
+| **Inovação Rápida** | Facilita testes, protótipos e lançamentos com velocidade. |
+| **Alto Desempenho e SLA** | Infraestrutura de ponta mantida por grandes empresas com alta disponibilidade. |
+
+---
+
+### Desvantagens
+
+| Desvantagem | Detalhes |
+| --- | --- |
+| **Menor Controle Direto** | A infraestrutura física está sob responsabilidade do provedor. |
+| **Possível Lock-in** | Dificuldade de migrar entre provedores por recursos específicos. |
+| **Exigência de Internet Estável** | Necessita de boa conectividade para acessar os serviços. |
+| **Segurança Compartilhada** | A responsabilidade é dividida entre provedor e cliente. |
+
+---
+
+### Exemplos de uso
+
+- Hospedagem de **sites e aplicativos com picos de acesso**.
+- Processos de **desenvolvimento e testes rápidos**.
+- Armazenamento e **backup de arquivos** com custo otimizado.
+- Execução de **machine learning, big data e análise preditiva**.
+
+---
+
+### Quando usar?
+
+- Quando você precisa de **agilidade e escalabilidade**.
+- Em **startups e empresas em crescimento**, com foco em custo-benefício.
+- Para **projetos temporários ou variáveis**, onde o uso de recursos muda com frequência.
+- Quando a manutenção e atualização da infraestrutura **não devem ser responsabilidades internas**.
+
+---
+
+## Nuvem Híbrida (Hybrid Cloud)
+
+![Captura de tela 2025-04-22 134548.png](attachment:1b605b5f-f5da-4e80-a463-9637368eb5b2:Captura_de_tela_2025-04-22_134548.png)
+
+### O que é?
+
+A **nuvem híbrida** é um modelo de infraestrutura que combina **ambientes de nuvem pública, nuvem privada e até on-premise** (infraestrutura local), permitindo que **dados e aplicações se movimentem entre eles** com integração e interoperabilidade.
+
+Ela oferece o **melhor dos dois mundos**, equilibrando segurança, desempenho, escalabilidade e custo.
+
+---
+
+### Características
+
+- **Integração entre ambientes distintos:** Os sistemas conversam entre si por meio de redes seguras, APIs e ferramentas de orquestração.
+- **Flexibilidade Estratégica:** Recursos podem ser alocados de forma dinâmica onde for mais eficiente.
+- **Balanceamento de Carga:** Permite distribuir demandas entre os ambientes para otimizar desempenho e custos.
+- **Transição Suave:** Ideal para empresas que estão migrando gradualmente para a nuvem.
+- As organizações determinam onde executar seus aplicativos.
+- As organizações controlam a segurança, a conformidade e os requisitos legais.
+- Fornece a maior flexibilidade
+
+---
+
+### Vantagens
+
+| Vantagem | Explicação |
+| --- | --- |
+| **Flexibilidade Operacional** | Pode escolher onde rodar cada carga de trabalho, conforme necessidade. |
+| **Custo Otimizado** | Dados sensíveis ficam na privada; operações dinâmicas vão para a pública. |
+| **Continuidade de Negócios** | Possibilita recuperação de desastres e backups distribuídos. |
+| **Migração Gradual** | Suporta empresas que estão adotando nuvem de forma progressiva. |
+
+---
+
+### Desvantagens
+
+| Desvantagem | Detalhes |
+| --- | --- |
+| **Complexidade de Gerenciamento** | Exige ferramentas e profissionais para coordenar múltiplos ambientes. |
+| **Integração Técnica Difícil** | Nem todos os sistemas se integram facilmente entre os ambientes. |
+| **Custo de Integração Inicial** | Pode ter um custo alto no começo, especialmente com segurança e rede. |
+
+---
+
+### Exemplos de uso
+
+- **Empresas que mantêm dados sensíveis em ambiente privado**, mas usam nuvem pública para aplicações web.
+- **Indústrias com sistemas legados on-premise**, que se conectam a novas soluções em nuvem.
+- **E-commerces**, que escalam seus servidores na nuvem pública em datas como Black Friday, mas mantêm os dados dos clientes em nuvem privada.
+
+---
+
+### Quando usar?
+
+- Quando há **requisitos legais de proteção de dados**, mas também a necessidade de escalar rápido.
+- Para **melhorar a resiliência e desempenho** dos sistemas.
+- Em empresas que **já possuem uma infraestrutura própria** e querem modernizar sem perder o investimento feito.
+
+---
+
+## **CapEx (Capital Expenditure)** – Despesa de Capital
+
+### O que é:
+
+CapEx é o **gasto com aquisição de bens ou ativos de longo prazo**, usados por vários anos na empresa.
+
+### Características:
+
+- Gasto **grande feito de uma vez só** (investimento inicial alto).
+- O gasto inicial de dinheiro  em infraestrutura física.
+- As despeas do CapEx têm um valor que se reduz com o tempo.
+- Gera **propriedade** sobre os ativos (servidores, data center etc.).
+- Exige **planejamento financeiro a longo prazo**.
+- Os ativos sofrem **depreciação** com o tempo.
+- Manutenção e atualização são **responsabilidade da empresa**.
+
+### Exemplos:
+
+- Compra de servidores físicos.
+- Construção de data center próprio.
+- Compra de licenças permanentes de software.
+
+## **OpEx (Operational Expenditure)** – Despesa Operacional
+
+### O que é:
+
+OpEx é o **gasto contínuo com serviços e operações do dia a dia**, geralmente pagos mensalmente ou conforme o uso.
+
+### Características:
+
+- **Custo menor e contínuo**, sem investimento inicial alto.
+- Gastar com produtos e serviços conforme necessário, pagamento conforme o uso
+- Seja cobrado imediatamente
+- A empresa **não é dona do recurso**, apenas o utiliza.
+- Alta **flexibilidade e escalabilidade**.
+- A manutenção fica com o **fornecedor do serviço**.
+- Ideal para **ambientes dinâmicos ou em crescimento**.
+
+### Exemplos:
+
+- Uso de servidores em nuvem (AWS, Azure).
+- Assinatura mensal de software (SaaS).
+- Contratação de serviços gerenciados.
+
+---
+
+## **Principais Diferenças**
+
+| Aspecto | CapEx | OpEx |
+| --- | --- | --- |
+| Tipo de gasto | Investimento fixo (compra) | Custo operacional (aluguel/uso) |
+| Pagamento | Alto custo inicial | Pagamento mensal ou por uso |
+| Propriedade | A empresa é dona dos ativos | A empresa apenas usa os recursos |
+| Escalabilidade | Difícil de escalar | Fácil de escalar rapidamente |
+| Responsabilidade | Empresa mantém e atualiza | Fornecedor cuida da manutenção |
+| Planejamento | Longo prazo | Curto e médio prazo |
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
