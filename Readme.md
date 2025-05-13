@@ -165,7 +165,7 @@ ________________________________________________________________________________
 
 ## Nuvem Privada (Private Cloud)
 
-![Primeira imagem](Imagens/Captura-de-tela-2025-04-22123216.png)
+![Imagem Nuvem Privada](Imagens/Captura-de-tela-2025-04-22-123216.png)
 
 
 
@@ -226,7 +226,7 @@ A **nuvem privada** é um ambiente de computação em nuvem exclusivo para uma �
 
 ## Nuvem pública (Public Cloud)
 
-![Captura de tela 2025-04-22 131440.png](attachment:2bf0bbd0-aa3b-4634-8f29-d5e40dcbf1af:Captura_de_tela_2025-04-22_131440.png)
+![Imagem Nuvem Pública](Imagens/Captura-de-tela-2025-04-22-131440.png)
 
 ### O que é?
 
@@ -293,7 +293,7 @@ Esses recursos são acessados **pela internet** e cobrados geralmente **pelo uso
 
 ## Nuvem Híbrida (Hybrid Cloud)
 
-![Captura de tela 2025-04-22 134548.png](attachment:1b605b5f-f5da-4e80-a463-9637368eb5b2:Captura_de_tela_2025-04-22_134548.png)
+![Imagem nuvem Híbrida](Imagens/Captura-de-tela-2025-04-22-134548.png)
 
 ### O que é?
 
