@@ -454,6 +454,46 @@ ________________________________________________________________________________
 
 
 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+# Tipos de Serviço de Nuvem na Azure
+
+- IaaS, PaaS e SaaS
+
+## IaaS ( Infraestrutura como serviço )
+
+![Captura de tela 2025-05-15 213807.png](attachment:ea13190e-218e-4943-bbb8-8ea4d53d7de2:Captura_de_tela_2025-05-15_213807.png)
+
+- **O que é:** Você aluga recursos de infraestrutura (servidores físicos ou virtuais, storage, redes e sistemas operacionais) de um provedor, pagando apenas pelo que usa.
+- **Responsabilidade do usuário:** Gerenciar SO, middleware, runtimes, dados e aplicações.
+- **Responsabilidade do provedor:** Hardware, virtualização, storage, rede e datacenter.
+- **Quando usar:** Se você precisa de controle sobre o sistema operacional e middleware, mas não quer investir em data center próprio.
+- Crie uma infraestrutura de TI de pagamento conforme o uso alugando servidores, máquinas virtuais, armazenamneto, redes e sistemas operacionais de um provedor de nuvem.
+
+## Paas ( Plataforma como serviço )
+
+![Captura de tela 2025-05-15 214721.png](attachment:02c3923f-9564-44a9-875d-e98fda819f56:Captura_de_tela_2025-05-15_214721.png)
+
+- **O que é:** Fornece um ambiente completo para desenvolvimento, testes, deploy e gestão de aplicações sem que você precise cuidar da infraestrutura subjacente.
+- **Responsabilidade do usuário:** Escrever e manter o código da aplicação e os dados.
+- **Responsabilidade do provedor:** Infraestrutura, SO, middleware, runtimes, escalabilidade e patching.
+- **Quando usar:** Se você quer focar apenas no desenvolvimento de software e acelerar ciclos de entrega, sem se preocupar com servidores ou redes.
+- Fornece um ambiente para a criação, o teste e a implantação de aplicativos de software, sem focar no gerenciamneto da infraestrutura subjacente.
+
+## SaaS ( software como serviço )
+
+![Captura de tela 2025-05-15 215237.png](attachment:04d16bab-3fac-46b0-9078-853b62c3f793:Captura_de_tela_2025-05-15_215237.png)
+
+- **O que é:** Aplicações prontas, entregues pela internet. Você acessa via navegador ou app, sem instalar nada localmente.
+- **Responsabilidade do usuário:** Consumir o serviço e gerenciar apenas as configurações de usuário e dados de negócio.
+- **Responsabilidade do provedor:** Tudo, desde infraestrutura até aplicação, interface e segurança.
+- **Quando usar:** Para soluções de produtividade (e‑mail, CRM, ERP) ou qualquer software que você queira consumir imediatamente, sem nenhum esforço operacional.
+- Os usuários se conectam e usam aplicativos com base em nuvem pela internet: por exemplo, Microsoft Office 365, email e calendários
+
+
+
+
 
 
 
