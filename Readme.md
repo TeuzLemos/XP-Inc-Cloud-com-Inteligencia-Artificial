@@ -463,7 +463,7 @@ ________________________________________________________________________________
 
 ## IaaS ( Infraestrutura como serviço )
 
-![Captura de tela 2025-05-15 213807.png](attachment:ea13190e-218e-4943-bbb8-8ea4d53d7de2:Captura_de_tela_2025-05-15_213807.png)
+![Imagem do sistema IaaS](Imagens/imagem-iaas.png)
 
 - **O que é:** Você aluga recursos de infraestrutura (servidores físicos ou virtuais, storage, redes e sistemas operacionais) de um provedor, pagando apenas pelo que usa.
 - **Responsabilidade do usuário:** Gerenciar SO, middleware, runtimes, dados e aplicações.
@@ -473,7 +473,7 @@ ________________________________________________________________________________
 
 ## Paas ( Plataforma como serviço )
 
-![Captura de tela 2025-05-15 214721.png](attachment:02c3923f-9564-44a9-875d-e98fda819f56:Captura_de_tela_2025-05-15_214721.png)
+![Imagem do sistema PaaS](Imagens/imagem-paas.png)
 
 - **O que é:** Fornece um ambiente completo para desenvolvimento, testes, deploy e gestão de aplicações sem que você precise cuidar da infraestrutura subjacente.
 - **Responsabilidade do usuário:** Escrever e manter o código da aplicação e os dados.
@@ -483,7 +483,7 @@ ________________________________________________________________________________
 
 ## SaaS ( software como serviço )
 
-![Captura de tela 2025-05-15 215237.png](attachment:04d16bab-3fac-46b0-9078-853b62c3f793:Captura_de_tela_2025-05-15_215237.png)
+![Imagem do sistema SaaS](Imagens/imagem-saas.png)
 
 - **O que é:** Aplicações prontas, entregues pela internet. Você acessa via navegador ou app, sem instalar nada localmente.
 - **Responsabilidade do usuário:** Consumir o serviço e gerenciar apenas as configurações de usuário e dados de negócio.
